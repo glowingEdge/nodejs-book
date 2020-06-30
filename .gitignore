@@ -1,5 +1,6 @@
 # Custom
 .DS_store
+.env
 
 ## Provided by Github https://github.com/github/gitignore/blob/master/Node.gitignore
 # Logs
