@@ -1,0 +1,20 @@
+{
+  "name": "nodebird-api",
+  "version": "0.0.1",
+  "description": "NodeBird API 서버",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glowingEdge/nodejs-book.git"
+  },
+  "author": "glowingEdge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glowingEdge/nodejs-book/issues"
+  },
+  "homepage": "https://github.com/glowingEdge/nodejs-book#readme"
+}
