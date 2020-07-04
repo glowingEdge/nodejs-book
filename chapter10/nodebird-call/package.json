@@ -1,0 +1,30 @@
+{
+  "name": "nodebird-call",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glowingEdge/nodejs-book.git"
+  },
+  "author": "glowingEdge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glowingEdge/nodejs-book/issues"
+  },
+  "homepage": "https://github.com/glowingEdge/nodejs-book#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}
