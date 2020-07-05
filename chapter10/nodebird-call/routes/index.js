@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const router = express.Router();
-const URL = 'http://localhost:8002/v1';
+const URL = 'http://localhost:8002/v2';
 
 axios.defaults.headers.origin = 'http://localhost:8003';
 const request = async (req, api) => {
@@ -68,6 +68,9 @@ router.get('/test', async (req, res, next) => {
     return res.json(result.data);
   } catch (error) {
     if (error.response.status === 419) {
+      return res.json(error.response.data);
+    }
+    else if (error.response.status === 410) {
       return res.json(error.response.data);
     }
     return next(error);
