@@ -33,7 +33,7 @@ router.post('/token', async(req, res) => {
     });
     return res.json({
       code: 200,
-      message: '토근이 발급되었습니다.',
+      message: '토큰이 발급되었습니다.',
       token,
     });
   } catch(error) {
